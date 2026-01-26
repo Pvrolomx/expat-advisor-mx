@@ -68,7 +68,7 @@ export default function Home() {
     
     const content = document.createElement('div')
     content.innerHTML = `
-      <div style="font-family: Arial, sans-serif; padding: 20px; max-width: 700px; margin: 0 auto;">
+      <div style="font-family: Arial, sans-serif; padding: 20px; max-width: 700px; margin: 0 auto; color: #333;">
         <div style="text-align: center; margin-bottom: 20px;">
           <img src="/logo_banner.png" style="height: 50px; margin-bottom: 10px;" />
           <h1 style="font-size: 14pt; color: #00a884; margin: 0;">${lang === 'en' ? 'Consultation Report' : 'Reporte de Consulta'}</h1>
@@ -77,17 +77,14 @@ export default function Home() {
         
         <div style="border-top: 2px solid #00a884; padding-top: 15px;">
           ${messages.filter((m, i) => i > 0).map(m => `
-            <div style="margin-bottom: 15px; padding: 10px; background: ${m.role === 'user' ? '#e8f5e9' : '#f5f5f5'}; border-radius: 8px;">
-              <p style="font-size: 10pt; color: #666; margin: 0 0 5px 0; font-weight: bold;">
-                ${m.role === 'user' ? (lang === 'en' ? 'Question' : 'Pregunta') : (lang === 'en' ? 'Answer' : 'Respuesta')}:
-              </p>
-              <p style="font-size: 12pt; margin: 0; white-space: pre-wrap; line-height: 1.5;">${m.content}</p>
+            <div style="margin-bottom: 15px; padding: 12px; background: ${m.role === 'user' ? '#f8f8f8' : '#ffffff'}; border: 1px solid #e0e0e0; border-radius: 8px;">
+              <p style="font-size: 12pt; color: #333; margin: 0; white-space: pre-wrap; line-height: 1.6; ${m.role === 'user' ? 'font-weight: bold;' : 'font-weight: normal;'}">${m.content}</p>
             </div>
           `).join('')}
         </div>
         
-        <div style="margin-top: 30px; padding: 15px; background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px;">
-          <p style="font-size: 10pt; color: #856404; margin: 0; text-align: center;">
+        <div style="margin-top: 30px; padding: 12px; background: #fffbf0; border: 1px solid #e6d9a8; border-radius: 8px;">
+          <p style="font-size: 10pt; color: #5a4a00; margin: 0; text-align: center;">
             ⚠️ ${disclaimer}
           </p>
         </div>
