@@ -220,16 +220,20 @@ export default function Home() {
             {lang === 'en' ? 'Send' : 'Enviar'}
           </button>
         </form>
-        <div className="mt-2 text-center">
-          <p className="text-[10px] text-[#8696a0]">
-            Powered by <span className="text-[#00a884]">duendes.app</span>
-          </p>
-          <p className="text-[9px] text-[#667781] mt-1">
+        
+        {/* Disclaimer - more visible */}
+        <div className="mt-3 p-2 bg-[#1a2329] rounded-lg border border-[#2a3942]">
+          <p className="text-[11px] text-[#aebac1] text-center leading-relaxed">
             ⚠️ {lang === 'en' 
               ? 'Important: This is informational only, not legal advice. Always consult a licensed attorney and check your condo bylaws.' 
               : 'Importante: Esto es solo informativo, no es asesoría legal. Siempre consulta a un abogado y revisa tu reglamento.'}
           </p>
         </div>
+        
+        {/* Made by */}
+        <p className="text-[10px] text-[#667781] text-center mt-2">
+          {lang === 'en' ? 'Made by' : 'Hecho por'} <span className="text-[#00a884]">duendes.app</span> © 2026
+        </p>
       </footer>
     </div>
   )
