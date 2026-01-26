@@ -1,21 +1,24 @@
 {
-  "name": "Condo Advisor - Nayarit",
+  "name": "Condo Advisor",
   "short_name": "Condo Advisor",
-  "description": "Bilingual legal assistant for Nayarit condominium law",
+  "description": "Your bilingual guide to Nayarit & Jalisco condominium law",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#111b21",
-  "theme_color": "#075e54",
+  "theme_color": "#00a884",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
