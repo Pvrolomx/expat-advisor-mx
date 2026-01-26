@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+
 import { useState, useRef, useEffect } from 'react'
 
 export default function Home() {
@@ -79,7 +81,7 @@ export default function Home() {
           <p className="text-xs text-[#8696a0]">Nayarit Condominium Law • Online</p>
         </div>
         <div className="flex gap-4 text-[#aebac1]">
-          <span className="text-xl cursor-pointer hover:text-[#00a884]">🌴</span>
+          <Link href="/templates" className="text-xl cursor-pointer hover:text-[#00a884]" title="Templates">📄</Link>
         </div>
       </header>
 
