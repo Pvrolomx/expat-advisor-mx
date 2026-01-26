@@ -16,10 +16,10 @@ body {
   overflow: hidden;
 }
 
-/* Chat background - more brightness */
+/* Chat background - more brightness (30% overlay) */
 .chat-bg {
   background-image: 
-    linear-gradient(rgba(17, 27, 33, 0.45), rgba(17, 27, 33, 0.45)),
+    linear-gradient(rgba(17, 27, 33, 0.30), rgba(17, 27, 33, 0.30)),
     url('/bg-condo.png');
   background-size: cover;
   background-position: center;
