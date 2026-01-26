@@ -6,11 +6,11 @@ import { useState, useRef, useEffect } from 'react'
 const WELCOME_MESSAGES = {
   nayarit: {
     content: '¡Hola! 👋 I\'m your Condo Advisor for **Nayarit**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Airbnb regulations\n• Buying/selling property\n\nAsk me anything in English or Spanish!',
-    subtitle: 'Nayarit Condominium Law • Online'
+    subtitle: 'Nayarit • Ley de Condominio'
   },
   jalisco: {
     content: '¡Hola! 👋 I\'m your Condo Advisor for **Jalisco**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Buying/selling property\n\nAsk me anything in English or Spanish!',
-    subtitle: 'Jalisco Condominium Law • Online'
+    subtitle: 'Jalisco • Código Civil'
   }
 }
 
@@ -26,7 +26,6 @@ export default function Home() {
   const [input, setInput] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const messagesEndRef = useRef(null)
-  const inputRef = useRef(null)
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
@@ -95,43 +94,47 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen max-w-2xl mx-auto bg-[#111b21]">
       {/* Header */}
-      <header className="bg-[#202c33] border-b border-[#2a3942]">
+      <header className="bg-[#202c33]">
+        {/* Logo Banner */}
+        <div className="flex items-center justify-between px-4 py-3 bg-white">
+          <div className="w-8"></div>
+          <img 
+            src="/logo_banner.png" 
+            alt="Condo Advisor" 
+            className="h-10 md:h-12 w-auto"
+          />
+          <Link href="/templates" className="text-xl text-[#5f9ea0] hover:text-[#00a884]" title="Templates">
+            📄
+          </Link>
+        </div>
+        
         {/* State Tabs */}
         <div className="flex border-b border-[#2a3942]">
           <button
             onClick={() => changeEstado('nayarit')}
-            className={`flex-1 py-3 text-sm font-medium transition-colors ${
+            className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
               estado === 'nayarit'
                 ? 'text-[#00a884] border-b-2 border-[#00a884] bg-[#111b21]'
-                : 'text-[#8696a0] hover:text-[#e9edef]'
+                : 'text-[#8696a0] hover:text-[#e9edef] bg-[#202c33]'
             }`}
           >
             🏝️ Nayarit
           </button>
           <button
             onClick={() => changeEstado('jalisco')}
-            className={`flex-1 py-3 text-sm font-medium transition-colors ${
+            className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
               estado === 'jalisco'
                 ? 'text-[#00a884] border-b-2 border-[#00a884] bg-[#111b21]'
-                : 'text-[#8696a0] hover:text-[#e9edef]'
+                : 'text-[#8696a0] hover:text-[#e9edef] bg-[#202c33]'
             }`}
           >
             ☀️ Jalisco
           </button>
         </div>
         
-        {/* Title Bar */}
-        <div className="flex items-center gap-3 px-4 py-2">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#00a884] to-[#075e54] flex items-center justify-center text-xl">
-            {estado === 'nayarit' ? '🏝️' : '☀️'}
-          </div>
-          <div className="flex-1">
-            <h1 className="text-[#e9edef] font-medium">Condo Advisor</h1>
-            <p className="text-xs text-[#8696a0]">{WELCOME_MESSAGES[estado].subtitle}</p>
-          </div>
-          <div className="flex gap-4 text-[#aebac1]">
-            <Link href="/templates" className="text-xl cursor-pointer hover:text-[#00a884]" title="Templates">📄</Link>
-          </div>
+        {/* Subtitle */}
+        <div className="px-4 py-1.5 bg-[#111b21]">
+          <p className="text-xs text-[#8696a0] text-center">{WELCOME_MESSAGES[estado].subtitle}</p>
         </div>
       </header>
 
@@ -174,7 +177,6 @@ export default function Home() {
       <footer className="bg-[#202c33] px-4 py-3 border-t border-[#2a3942]">
         <form onSubmit={sendMessage} className="flex gap-2">
           <input
-            ref={inputRef}
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
