@@ -11,17 +11,17 @@ const WELCOME_MESSAGES = {
   jalisco: {
     en: '¡Hola! 👋 I\'m your Condo Advisor for **Jalisco**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Buying/selling property\n\nAsk me anything!',
     es: '¡Hola! 👋 Soy tu Asesor de Condominios para **Jalisco**.\n\nPuedo ayudarte con:\n• Asambleas y votaciones\n• Requisitos de quórum\n• Fideicomiso y extranjeros\n• Cuotas de mantenimiento\n• Problemas con administrador\n• Compra/venta de propiedad\n\n¡Pregúntame lo que quieras!',
-    subtitle: { en: 'Jalisco • Civil Code', es: 'Jalisco • Código Civil' }
+    subtitle: { en: 'Jalisco • Condominium Law', es: 'Jalisco • Ley de Condominio' }
   }
 }
 
 export default function Home() {
-  const [estado, setEstado] = useState('nayarit')
+  const [estado, setEstado] = useState('jalisco')
   const [lang, setLang] = useState('en')
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: WELCOME_MESSAGES.nayarit.en,
+      content: WELCOME_MESSAGES.jalisco.en,
       time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
     }
   ])
@@ -136,18 +136,8 @@ export default function Home() {
           </div>
         </div>
         
-        {/* State Tabs */}
+        {/* State Tabs - Jalisco first, Nayarit second */}
         <div className="flex border-b border-[#2a3942]">
-          <button
-            onClick={() => changeEstado('nayarit')}
-            className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
-              estado === 'nayarit'
-                ? 'text-[#00a884] border-b-2 border-[#00a884] bg-[#111b21]'
-                : 'text-[#8696a0] hover:text-[#e9edef] bg-[#202c33]'
-            }`}
-          >
-            🏝️ Nayarit
-          </button>
           <button
             onClick={() => changeEstado('jalisco')}
             className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
@@ -157,6 +147,16 @@ export default function Home() {
             }`}
           >
             ☀️ Jalisco
+          </button>
+          <button
+            onClick={() => changeEstado('nayarit')}
+            className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
+              estado === 'nayarit'
+                ? 'text-[#00a884] border-b-2 border-[#00a884] bg-[#111b21]'
+                : 'text-[#8696a0] hover:text-[#e9edef] bg-[#202c33]'
+            }`}
+          >
+            🏝️ Nayarit
           </button>
         </div>
         
