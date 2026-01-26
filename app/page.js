@@ -15,6 +15,9 @@ const WELCOME_MESSAGES = {
   }
 }
 
+const DAILY_LIMIT = 10
+const KOFI_URL = 'https://ko-fi.com/condoadvisor' // Cambiar por tu URL real
+
 export default function Home() {
   const [estado, setEstado] = useState('jalisco')
   const [lang, setLang] = useState('en')
@@ -27,9 +30,25 @@ export default function Home() {
   ])
   const [input, setInput] = useState('')
   const [isLoading, setIsLoading] = useState(false)
+  const [dailyCount, setDailyCount] = useState(0)
+  const [limitReached, setLimitReached] = useState(false)
   const messagesEndRef = useRef(null)
 
-  // Check if there's a consultation (more than just welcome message)
+  // Check daily limit on mount
+  useEffect(() => {
+    const stored = localStorage.getItem('condo_advisor_usage')
+    if (stored) {
+      const { count, date } = JSON.parse(stored)
+      const today = new Date().toDateString()
+      if (date === today) {
+        setDailyCount(count)
+        if (count >= DAILY_LIMIT) setLimitReached(true)
+      } else {
+        localStorage.setItem('condo_advisor_usage', JSON.stringify({ count: 0, date: today }))
+      }
+    }
+  }, [])
+
   const hasConsultation = messages.length > 1
 
   const scrollToBottom = () => {
@@ -113,9 +132,19 @@ export default function Home() {
     html2pdf().set(opt).from(content).save()
   }
 
+  const incrementUsage = () => {
+    const today = new Date().toDateString()
+    const newCount = dailyCount + 1
+    setDailyCount(newCount)
+    localStorage.setItem('condo_advisor_usage', JSON.stringify({ count: newCount, date: today }))
+    if (newCount >= DAILY_LIMIT) {
+      setLimitReached(true)
+    }
+  }
+
   const sendMessage = async (e) => {
     e.preventDefault()
-    if (!input.trim() || isLoading) return
+    if (!input.trim() || isLoading || limitReached) return
 
     const userMessage = {
       role: 'user',
@@ -148,6 +177,8 @@ export default function Home() {
         content: data.message || 'Sorry, I encountered an error. Please try again.',
         time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
       }])
+      
+      incrementUsage()
     } catch (error) {
       setMessages(prev => [...prev, {
         role: 'assistant',
@@ -222,9 +253,10 @@ export default function Home() {
           </button>
         </div>
         
-        {/* Subtitle */}
-        <div className="px-4 py-1.5 bg-[#111b21]">
-          <p className="text-xs text-[#8696a0] text-center">{WELCOME_MESSAGES[estado].subtitle[lang]}</p>
+        {/* Subtitle + Usage Counter */}
+        <div className="px-4 py-1.5 bg-[#111b21] flex justify-between items-center">
+          <p className="text-xs text-[#8696a0]">{WELCOME_MESSAGES[estado].subtitle[lang]}</p>
+          <p className="text-xs text-[#8696a0]">{dailyCount}/{DAILY_LIMIT} {lang === 'en' ? 'today' : 'hoy'}</p>
         </div>
       </header>
 
@@ -260,6 +292,32 @@ export default function Home() {
           </div>
         )}
         
+        {/* Limit Reached Message */}
+        {limitReached && (
+          <div className="flex justify-center message-appear">
+            <div className="bg-[#2a3942] rounded-lg px-4 py-3 text-center max-w-[90%]">
+              <p className="text-[#e9edef] text-sm mb-2">
+                {lang === 'en' 
+                  ? "You've reached today's free limit (10 questions)." 
+                  : 'Alcanzaste el límite gratuito de hoy (10 preguntas).'}
+              </p>
+              <p className="text-[#8696a0] text-xs mb-3">
+                {lang === 'en' 
+                  ? 'Come back tomorrow or support us to keep this free!' 
+                  : '¡Vuelve mañana o apóyanos para mantener esto gratis!'}
+              </p>
+              <a 
+                href={KOFI_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#00a884] text-white rounded-lg px-4 py-2 text-sm font-medium hover:bg-[#02906f] transition-colors"
+              >
+                ☕ {lang === 'en' ? 'Buy us a coffee' : 'Invítanos un café'}
+              </a>
+            </div>
+          </div>
+        )}
+        
         <div ref={messagesEndRef} />
       </main>
 
@@ -270,13 +328,15 @@ export default function Home() {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder={lang === 'en' ? 'Type a message...' : 'Escribe un mensaje...'}
-            className="flex-1 bg-[#2a3942] text-[#e9edef] rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-[#00a884] placeholder-[#8696a0]"
-            disabled={isLoading}
+            placeholder={limitReached 
+              ? (lang === 'en' ? 'Daily limit reached...' : 'Límite diario alcanzado...') 
+              : (lang === 'en' ? 'Type a message...' : 'Escribe un mensaje...')}
+            className="flex-1 bg-[#2a3942] text-[#e9edef] rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-[#00a884] placeholder-[#8696a0] disabled:opacity-50"
+            disabled={isLoading || limitReached}
           />
           <button
             type="submit"
-            disabled={isLoading || !input.trim()}
+            disabled={isLoading || !input.trim() || limitReached}
             className="bg-[#00a884] text-white rounded-lg px-4 py-2 text-sm font-medium hover:bg-[#02906f] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
             {lang === 'en' ? 'Send' : 'Enviar'}
@@ -295,6 +355,16 @@ export default function Home() {
         >
           📄 {lang === 'en' ? 'Download consultation as PDF' : 'Descargar consulta en PDF'}
         </button>
+        
+        {/* Support Button */}
+        <a 
+          href={KOFI_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full mt-2 py-2 rounded-lg text-xs font-medium text-center bg-[#2a3942] text-[#ffd700] hover:bg-[#3a4952] transition-colors"
+        >
+          ☕ {lang === 'en' ? 'Support this project' : 'Apoya este proyecto'}
+        </a>
         
         {/* Disclaimer */}
         <div className="mt-3 p-2 bg-[#1a2329] rounded-lg border border-[#2a3942]">
