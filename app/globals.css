@@ -16,6 +16,32 @@ body {
   overflow: hidden;
 }
 
+/* Chat background with luxury condo image */
+.chat-bg {
+  background-image: 
+    linear-gradient(rgba(17, 27, 33, 0.85), rgba(17, 27, 33, 0.85)),
+    url('/bg-condo.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Message animation */
+.message-appear {
+  animation: messageSlide 0.3s ease-out;
+}
+
+@keyframes messageSlide {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
@@ -28,4 +54,25 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #2a3942;
   border-radius: 3px;
+}
+
+/* Markdown styling in chat */
+.chat-message p {
+  margin-bottom: 0.5rem;
+}
+
+.chat-message ul, .chat-message ol {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.chat-message li {
+  margin-bottom: 0.25rem;
+}
+
+.chat-message code {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
 }
