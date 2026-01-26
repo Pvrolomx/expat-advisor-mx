@@ -16,7 +16,7 @@ const WELCOME_MESSAGES = {
 }
 
 const DAILY_LIMIT = 10
-const KOFI_URL = 'https://ko-fi.com/duendesapp' // Cambiar por tu URL real
+const KOFI_URL = 'https://ko-fi.com/condoadviser' // Cambiar por tu URL real
 
 export default function Home() {
   const [estado, setEstado] = useState('jalisco')
