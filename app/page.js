@@ -87,8 +87,8 @@ export default function Home() {
     const html2pdf = (await import('html2pdf.js')).default
     
     const disclaimer = lang === 'en' 
-      ? 'IMPORTANT: This document is for informational purposes only and does not constitute legal advice. Always consult a licensed attorney and review your condominium bylaws for specific guidance.'
-      : 'IMPORTANTE: Este documento es solo informativo y no constituye asesoría legal. Siempre consulta a un abogado y revisa tu reglamento de condominio para orientación específica.'
+      ? 'IMPORTANT: This document is for informational purposes only and does not constitute legal, tax, or accounting advice. Always consult a licensed attorney and accountant for specific guidance.'
+      : 'IMPORTANTE: Este documento es solo informativo y no constituye asesoría legal, fiscal o contable. Siempre consulta a un abogado y contador para orientación específica.'
     
     const content = document.createElement('div')
     content.innerHTML = `
@@ -370,8 +370,8 @@ export default function Home() {
         <div className="mt-3 p-2 bg-[#1a2329] rounded-lg border border-[#2a3942]">
           <p className="text-[11px] text-[#aebac1] text-center leading-relaxed">
             ⚠️ {lang === 'en' 
-              ? 'Important: This is informational only, not legal advice. Always consult a licensed attorney and check your condo bylaws.' 
-              : 'Importante: Esto es solo informativo, no es asesoría legal. Siempre consulta a un abogado y revisa tu reglamento.'}
+              ? 'Important: This is informational only, not legal or tax advice. Consult a licensed attorney and accountant.' 
+              : 'Importante: Esto es solo informativo, no es asesoría legal ni fiscal. Consulta a un abogado y contador.'}
           </p>
         </div>
         
