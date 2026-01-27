@@ -101,6 +101,55 @@ Order: Due diligence → THEN deposit → THEN proceed
 4. If there's a lien, you've already been informed and agreed
 5. **2 months after closing**: Check with broker/notary BY EMAIL about registration status
 
+## 📄 ESCRITURA vs FIDEICOMISO vs CONTRATO PRIVADO
+- **Escritura** = Public deed (the GENRE) - can contain: sale, donation, power of attorney, fideicomiso, etc.
+- **Fideicomiso** = A TYPE of escritura (bank trust for foreigners in restricted zone)
+- **Contrato Privado** = Private contract, may or may not be notarized
+- **Pro tip**: Always notarize private contracts - helps in future litigation
+- **Digital contracts**: DocuSign/email contracts can be challenged in court (no physical signature). That's why real estate offers say "originals must be sent to parties" - 90% of the time nobody does this.
+
+## 📝 TESTAMENTO (MEXICAN WILL) - DO YOU NEED ONE?
+**If you ONLY have:** Condo + Mexican bank account → You may NOT need a will
+- Fideicomiso has substitute beneficiary → inherits automatically
+- Bank account has beneficiary → inherits automatically
+- No probate court needed for these
+
+**If you have more:** Other properties, vehicles, business → Get Mexican will
+
+**Foreign will in Mexico?** 
+- Must go through YOUR country's probate process first
+- Then international cooperation mechanisms
+- Then Mexican judge execution
+- **MUCH cheaper & faster**: Make a Mexican will here - saves your heirs enormous pain
+
+## 🏛️ PREDIAL (Property Tax)
+- **Pay in JANUARY** for discount (10-20% depending on municipality)
+- **Online payment** exists BUT you may need to validate physically with receipt
+- Might as well pay in person first month of year
+- **If you don't pay?** Late fees/surcharges but NO property seizure
+- They won't take your condo for unpaid predial
+
+## 🏦 FIDEICOMISO ANNUAL FEE - PAY ON TIME!
+- Banks are NOW applying late payment fines
+- Some banks notify you, some don't - unreliable system
+- **Best practice**: Register a credit card for automatic annual payment
+- Don't rely on reminders
+
+## 📞 DEALING WITH CFE, TELMEX, BANKS, IMSS
+**NEVER assume the person helping you knows what they're doing.**
+- Bank tellers, CFE clerks, Telmex agents - often give wrong information
+- Recommend: Pay a gestor (facilitator) if possible
+- If not, consider it a "Mexican experience" 😅
+- Same applies to INM (immigration) - whole other nightmare
+
+## 🏢 LLC TAX TIP (US OWNERS)
+If you have an LLC/LLP in the US:
+- You can buy property in Mexico (through fideicomiso) under the LLC
+- Travel expenses to Mexico may be deductible as business trips
+- Make sure family/friends who visit regularly are LLC members
+- Document each trip with meeting minutes
+- **Consult your US CPA** - this is a real strategy but do it right
+
 ## 💰 TAXES & RFC - CRITICAL FOR SELLING
 
 **If you DON'T have RFC (tax ID):**
@@ -249,6 +298,55 @@ Haz due diligence ANTES de dar dinero. El CLG puede revelar gravámenes ocultos.
 3. Pasa por 2 filtros: notario + banco (elimina errores)
 4. Si hay gravamen, ya te informaron y aceptaste
 5. **2 meses después**: Checa con broker/notario POR EMAIL el estatus de registro
+
+## 📄 ESCRITURA vs FIDEICOMISO vs CONTRATO PRIVADO
+- **Escritura** = Documento público (el GÉNERO) - puede contener: compraventa, donación, poder, fideicomiso, etc.
+- **Fideicomiso** = Un TIPO de escritura (trust bancario para extranjeros)
+- **Contrato Privado** = Puede o no estar ante notario
+- **Recomendación**: Siempre firmar ante notario - ayuda en litigios futuros
+- **Contratos digitales**: DocuSign/email pueden impugnarse (sin firma física). Por eso las ofertas dicen "originales deben enviarse" - 90% de las veces no se hace.
+
+## 📝 TESTAMENTO MEXICANO - ¿LO NECESITAS?
+**Si SOLO tienes:** Condo + cuenta bancaria MX → Quizás NO necesitas testamento
+- Fideicomiso tiene sustituto → hereda automático
+- Cuenta bancaria tiene beneficiario → hereda automático
+- No se necesita juicio sucesorio
+
+**Si tienes más:** Otras propiedades, vehículos, negocio → Sí haz testamento MX
+
+**¿Testamento extranjero en México?**
+- Debe pasar proceso en TU país primero
+- Luego mecanismos de cooperación internacional
+- Luego ejecución por juez mexicano
+- **MUCHO más barato**: Haz testamento aquí - le ahorras mucho dolor a tus herederos
+
+## 🏛️ PREDIAL (Impuesto Predial)
+- **Paga en ENERO** por descuento (10-20% según municipio)
+- **Pago en línea** existe PERO puede requerir validación física
+- Vale la pena ir en persona el primer mes
+- **¿Si no pagas?** Recargos pero NO te embargan la propiedad
+- No te quitan tu condo por predial impago
+
+## 🏦 ANUALIDAD FIDEICOMISO - ¡PAGA A TIEMPO!
+- Los bancos AHORA están aplicando multas por pago tardío
+- Algunos notifican, otros no - sistema poco confiable
+- **Mejor práctica**: Registra tarjeta de crédito para pago automático anual
+- No confíes en recordatorios
+
+## 📞 TRATAR CON CFE, TELMEX, BANCOS, IMSS
+**NUNCA asumas que la persona sabe lo que hace.**
+- Cajeros, empleados de CFE, agentes de Telmex - frecuentemente dan info incorrecta
+- Recomendación: Paga a un gestor si es posible
+- Si no, tómalo como "experiencia mexicana" 😅
+- Lo mismo aplica a INM (migración) - otro rollo
+
+## 🏢 TIP FISCAL LLC (DUEÑOS USA)
+Si tienes LLC/LLP en USA:
+- Puedes comprar propiedad en MX (vía fideicomiso) bajo la LLC
+- Gastos de viaje a MX pueden ser deducibles como viajes de negocios
+- Asegúrate que familia/amigos frecuentes sean miembros de la LLC
+- Documenta cada viaje con acta de reunión
+- **Consulta tu CPA en USA** - es estrategia real pero hazlo bien
 
 ## 💰 IMPUESTOS Y RFC - CRÍTICO
 
