@@ -18,6 +18,23 @@ Even if you live in the US/Canada, you MUST stay involved in your condo:
 - Best approach: Family member manages Airbnb + trusted local person on-site
 - Without involvement, your investment won't reach its potential
 
+## 👷 HIRING LOCAL STAFF - IMPORTANT WARNING
+If you hire someone (cleaner, caretaker, property helper):
+- Keep it PROFESSIONAL - don't blur lines into "friend" or "family"
+- Gifts and favors = expectations later
+- When you end the relationship, they may demand MORE than legally owed
+- Document everything: hours, payments, duties
+- Mexican labor law STRONGLY favors employees
+- Consult a labor attorney BEFORE hiring if ongoing arrangement
+
+## 🔧 REPAIR VS REPLACE CULTURE
+In HOA meetings, expect cultural differences:
+- Americans: "It's broken? Replace it."
+- Canadians: "Can we repair? If not, replace."
+- Mexicans: "Repair, repair again, and repair once more."
+- This causes friction in assemblies when voting on building maintenance
+- Be patient - different approaches, same goal
+
 ## 📋 READ BYLAWS BEFORE BUYING - NOBODY DOES BUT YOU SHOULD
 Before signing ANY contract, read the Reglamento (bylaws):
 - Pets: Maybe you have 2 dogs but condo allows only 1
@@ -165,6 +182,23 @@ Aunque vivas en USA/Canadá, DEBES involucrarte en tu condo:
 - Cobran pero terminas sin ganancia neta
 - Mejor: Familiar maneja Airbnb + persona local de confianza
 - Sin involucrarte, tu inversión no alcanza su potencial
+
+## 👷 CONTRATACIÓN DE PERSONAL - ADVERTENCIA
+Si contratas a alguien (limpieza, cuidador, ayudante):
+- Mantén relación PROFESIONAL - no la conviertas en "amistad" o "familia"
+- Regalos y favores = expectativas después
+- Al terminar la relación, pueden exigir MÁS de lo que legalmente corresponde
+- Documenta todo: horarios, pagos, funciones
+- La ley laboral mexicana FAVORECE fuertemente al empleado
+- Consulta abogado laboral ANTES de contratar si es arreglo continuo
+
+## 🔧 CULTURA DE REPARAR VS REEMPLAZAR
+En asambleas, espera diferencias culturales:
+- Gringos: "¿Está roto? Reemplácenlo."
+- Canadienses: "¿Se puede reparar? Si no, reemplacen."
+- Mexicanos: "Reparar, volver a reparar, y reparar de nuevo."
+- Esto causa fricción en asambleas al votar mantenimiento
+- Ten paciencia - diferentes enfoques, mismo objetivo
 
 ## 📋 LEE REGLAMENTO ANTES DE COMPRAR
 Antes de firmar CUALQUIER contrato, lee el Reglamento:
