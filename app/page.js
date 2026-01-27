@@ -193,9 +193,9 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen max-w-2xl mx-auto bg-[#111b21]">
       {/* Header */}
-      <header className="bg-[#202c33]">
+      <header className="bg-gradient-to-b from-[#1a2e35] to-[#202c33] shadow-lg">
         {/* Logo Banner */}
-        <div className="flex items-center justify-between px-4 py-3 bg-[#111b21]">
+        <div className="flex items-center justify-between px-4 py-3 bg-gradient-to-r from-[#0d1418] via-[#111b21] to-[#0d1418]">
           {/* PDF Button */}
           <button
             onClick={exportToPDF}
@@ -233,30 +233,38 @@ export default function Home() {
         <div className="flex border-b border-[#2a3942]">
           <button
             onClick={() => changeEstado('jalisco')}
-            className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
+            className={`flex-1 py-3 text-sm font-semibold transition-all duration-300 ${
               estado === 'jalisco'
-                ? 'text-[#00a884] border-b-2 border-[#00a884] bg-[#111b21]'
-                : 'text-[#8696a0] hover:text-[#e9edef] bg-[#202c33]'
+                ? 'text-[#00a884] border-b-2 border-[#00a884] bg-gradient-to-t from-[#0a1a1a] to-transparent shadow-inner'
+                : 'text-[#8696a0] hover:text-[#e9edef] hover:bg-[#1a2329] bg-[#202c33]'
             }`}
           >
-            ☀️ Jalisco
+            🌴 Puerto Vallarta
           </button>
           <button
             onClick={() => changeEstado('nayarit')}
-            className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
+            className={`flex-1 py-3 text-sm font-semibold transition-all duration-300 ${
               estado === 'nayarit'
-                ? 'text-[#00a884] border-b-2 border-[#00a884] bg-[#111b21]'
-                : 'text-[#8696a0] hover:text-[#e9edef] bg-[#202c33]'
+                ? 'text-[#00a884] border-b-2 border-[#00a884] bg-gradient-to-t from-[#0a1a1a] to-transparent shadow-inner'
+                : 'text-[#8696a0] hover:text-[#e9edef] hover:bg-[#1a2329] bg-[#202c33]'
             }`}
           >
-            🏝️ Nayarit
+            🏖️ Riviera Nayarit
           </button>
         </div>
         
         {/* Subtitle + Usage Counter */}
-        <div className="px-4 py-1.5 bg-[#111b21] flex justify-between items-center">
-          <p className="text-xs text-[#8696a0]">{WELCOME_MESSAGES[estado].subtitle[lang]}</p>
-          <p className="text-xs text-[#8696a0]">{dailyCount}/{DAILY_LIMIT} {lang === 'en' ? 'today' : 'hoy'}</p>
+        <div className="px-4 py-2 bg-gradient-to-r from-[#111b21] via-[#0d1418] to-[#111b21] flex justify-between items-center">
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] px-2 py-0.5 bg-[#00a884]/20 text-[#00a884] rounded-full font-medium">FREE</span>
+            <p className="text-xs text-[#8696a0]">{WELCOME_MESSAGES[estado].subtitle[lang]}</p>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className={`text-xs font-medium ${dailyCount >= DAILY_LIMIT ? 'text-red-400' : 'text-[#00a884]'}`}>
+              {dailyCount}/{DAILY_LIMIT}
+            </span>
+            <span className="text-[10px] text-[#667781]">{lang === 'en' ? 'today' : 'hoy'}</span>
+          </div>
         </div>
       </header>
 
@@ -270,8 +278,8 @@ export default function Home() {
             <div 
               className={`max-w-[85%] rounded-lg px-3 py-2 shadow ${
                 msg.role === 'user' 
-                  ? 'bubble-user rounded-tr-none' 
-                  : 'bubble-assistant rounded-tl-none'
+                  ? 'bubble-user rounded-tr-none shadow-lg' 
+                  : 'bubble-assistant rounded-tl-none shadow-md'
               }`}
             >
               <p className="text-[#e9edef] text-sm whitespace-pre-wrap">{msg.content}</p>
@@ -337,7 +345,7 @@ export default function Home() {
           <button
             type="submit"
             disabled={isLoading || !input.trim() || limitReached}
-            className="bg-[#00a884] text-white rounded-lg px-4 py-2 text-sm font-medium hover:bg-[#02906f] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="bg-[#00a884] text-white rounded-lg px-5 py-2.5 text-sm font-semibold hover:bg-[#02906f] hover:shadow-lg hover:shadow-[#00a884]/30 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
           >
             {lang === 'en' ? 'Send' : 'Enviar'}
           </button>
@@ -361,9 +369,9 @@ export default function Home() {
           href={KOFI_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full mt-2 py-2 rounded-lg text-xs font-medium text-center bg-[#2a3942] text-[#ffd700] hover:bg-[#3a4952] transition-colors"
+          className="block w-full mt-2 py-2.5 rounded-lg text-xs font-semibold text-center bg-gradient-to-r from-[#ff5e5b] to-[#ff8a5b] text-white hover:shadow-lg hover:shadow-[#ff5e5b]/30 transition-all duration-300"
         >
-          ☕ {lang === 'en' ? 'Support this project' : 'Apoya este proyecto'}
+          ☕ {lang === 'en' ? 'Love it? Support on Ko-fi' : '¿Te gusta? Apoya en Ko-fi'}
         </a>
         
         {/* Disclaimer */}
