@@ -4,14 +4,14 @@ import { useState, useRef, useEffect } from 'react'
 
 const WELCOME_MESSAGES = {
   nayarit: {
-    en: '¡Hola! 👋 I\'m your Condo Advisor for **Nayarit**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Airbnb regulations\n• Buying/selling property\n\nAsk me anything!',
-    es: '¡Hola! 👋 Soy tu Asesor de Condominios para **Nayarit**.\n\nPuedo ayudarte con:\n• Asambleas y votaciones\n• Requisitos de quórum\n• Fideicomiso y extranjeros\n• Cuotas de mantenimiento\n• Problemas con administrador\n• Regulaciones de Airbnb\n• Compra/venta de propiedad\n\n¡Pregúntame lo que quieras!',
-    subtitle: { en: 'Nayarit • Condominium Law', es: 'Nayarit • Ley de Condominio' }
+    en: '¡Hola! 👋 I\'m your **Expat Advisor** for Riviera Nayarit.\n\nI can help you with:\n• Buying property & fideicomiso\n• Mexican residency (temporal/permanente)\n• Taxes (ISR, RFC, predial)\n• HOA & condo life\n• Contractors & remodeling\n• Insurance & legal tips\n\nAsk me anything about expat life in Mexico!',
+    es: '¡Hola! 👋 Soy tu **Asesor de Expats** para Riviera Nayarit.\n\nPuedo ayudarte con:\n• Compra de propiedad y fideicomiso\n• Residencia mexicana (temporal/permanente)\n• Impuestos (ISR, RFC, predial)\n• HOA y vida en condominios\n• Contratistas y remodelaciones\n• Seguros y tips legales\n\n¡Pregunta lo que quieras sobre vida de expat en México!',
+    subtitle: { en: 'Riviera Nayarit • Expat Guide', es: 'Riviera Nayarit • Guía Expat' }
   },
   jalisco: {
-    en: '¡Hola! 👋 I\'m your Condo Advisor for **Jalisco**.\n\nI can help you with:\n• HOA meetings & voting (Asambleas)\n• Quorum requirements\n• Fideicomiso & foreign ownership\n• Maintenance fees (Cuotas)\n• Property manager issues\n• Buying/selling property\n\nAsk me anything!',
-    es: '¡Hola! 👋 Soy tu Asesor de Condominios para **Jalisco**.\n\nPuedo ayudarte con:\n• Asambleas y votaciones\n• Requisitos de quórum\n• Fideicomiso y extranjeros\n• Cuotas de mantenimiento\n• Problemas con administrador\n• Compra/venta de propiedad\n\n¡Pregúntame lo que quieras!',
-    subtitle: { en: 'Jalisco • Condominium Law', es: 'Jalisco • Ley de Condominio' }
+    en: '¡Hola! 👋 I\'m your **Expat Advisor** for Puerto Vallarta.\n\nI can help you with:\n• Buying property & fideicomiso\n• Mexican residency (temporal/permanente)\n• Taxes (ISR, RFC, predial)\n• HOA & condo life\n• Contractors & remodeling\n• Insurance & legal tips\n\nAsk me anything about expat life in Mexico!',
+    es: '¡Hola! 👋 Soy tu **Asesor de Expats** para Puerto Vallarta.\n\nPuedo ayudarte con:\n• Compra de propiedad y fideicomiso\n• Residencia mexicana (temporal/permanente)\n• Impuestos (ISR, RFC, predial)\n• HOA y vida en condominios\n• Contratistas y remodelaciones\n• Seguros y tips legales\n\n¡Pregunta lo que quieras sobre vida de expat en México!',
+    subtitle: { en: 'Puerto Vallarta • Expat Guide', es: 'Puerto Vallarta • Guía Expat' }
   }
 }
 
