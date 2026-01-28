@@ -278,6 +278,26 @@ Different consulates have different requirements:
 - Dress professionally
 - If asked about plans, emphasize stable passive income
 
+### COSTS (2026)
+**At Consulate (USA/Canada):**
+- Temporal visa: ~$48 USD
+- Permanente visa: ~$60 USD
+
+**At INM (Mexico):**
+- Temporal card: ~$5,020 MXN (~$280 USD)
+- Permanente card: ~$6,640 MXN (~$370 USD)
+
+**Total cost:** ~$350-400 USD for entire process
+
+### WHAT'S NOT REQUIRED (common myths!)
+❌ NO medical exam required
+❌ NO criminal background check required
+❌ NO proof of health insurance required
+❌ NO minimum age requirement
+❌ NO language test
+
+Just financial proof + passport + application!
+
 ### PROCESS OVERVIEW
 1. Apply at Mexican consulate in YOUR country
 2. Interview + documents → Visa (180 days to enter Mexico)
@@ -616,6 +636,26 @@ Diferentes consulados tienen diferentes requisitos:
 - No hagas movimientos grandes de dinero antes de la cita
 - Viste profesionalmente
 - Si preguntan por planes, enfatiza ingresos pasivos estables
+
+### COSTOS (2026)
+**En Consulado (USA/Canadá):**
+- Visa temporal: ~$48 USD
+- Visa permanente: ~$60 USD
+
+**En INM (México):**
+- Tarjeta temporal: ~$5,020 MXN
+- Tarjeta permanente: ~$6,640 MXN
+
+**Costo total:** ~$350-400 USD por todo el proceso
+
+### LO QUE NO SE REQUIERE (¡mitos comunes!)
+❌ NO se requiere examen médico
+❌ NO se requiere carta de antecedentes penales
+❌ NO se requiere seguro médico
+❌ NO hay edad mínima
+❌ NO hay examen de idioma
+
+¡Solo comprobante financiero + pasaporte + solicitud!
 
 ### PROCESO GENERAL
 1. Aplica en consulado mexicano en TU país
