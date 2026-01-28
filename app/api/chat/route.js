@@ -202,19 +202,76 @@ Technically, only government can impose "multas" (fines). But HOAs can:
 - Limit pool/gym access
 - **Always find a way** - just be creative with wording
 
-## 🛂 TOURIST VS RESIDENT - FOR BUYING PROPERTY
-**Can you buy as a tourist?** YES ✅
+## 🛂 RESIDENCY IN MEXICO - COMPLETE GUIDE (2026)
+
+### CAN YOU BUY AS A TOURIST? YES ✅
 - Legal to purchase through fideicomiso
-- No residency required to own
+- No residency required to own property
 
-**BUT residency is RECOMMENDED because:**
+### WHY GET RESIDENCY?
 - Lower ISR when you sell (resident vs non-resident rates)
-- Easier banking (open accounts, get credit)
-- Simpler RFC process
-- Less paperwork for everything
-- Avoid future headaches
+- Easier banking (open accounts, get credit cards)
+- Simpler RFC process for tax optimization
+- Can work legally (Permanente) or with permit (Temporal)
+- Path to citizenship after 5 years
 
-**Types:** Temporal (1-4 years) or Permanente
+### TYPES OF RESIDENCY
+| Type | Duration | Renewal | Work |
+|------|----------|---------|------|
+| Temporal | Up to 4 years | Annual at INM | With permit |
+| Permanente | Indefinite | Never | Automatic |
+
+### FINANCIAL REQUIREMENTS (2026 - varies by consulate!)
+**Residente Temporal:**
+- OPTION A: Income $4,200-$4,800 USD/month (6 months proof)
+- OPTION B: Savings/Investments $72,000-$80,000 USD (12 months proof)
+- Cannot combine income + savings - must be ONE or OTHER
+
+**Residente Permanente:**
+- OPTION A: Income $7,000-$8,000 USD/month (6 months proof)
+- OPTION B: Savings $290,000-$320,000 USD (12 months proof)
+- Many consulates require you to be RETIRED to apply direct
+
+### ACCEPTED DOCUMENTS
+✅ Bank statements (6-12 months) - all pages, original or PDF varies
+✅ Pension letters (Social Security, CPP)
+✅ 401(k)/IRA statements (USA) or RRSP/TFSA (Canada)
+✅ Investment/brokerage accounts
+✅ Property deed in Mexico (value >$600,000 USD)
+
+❌ NOT ACCEPTED:
+- Cryptocurrency
+- Gold/silver/precious metals
+- Property outside Mexico
+- Home equity (without selling)
+- Combining income + savings
+
+### CONSULATE VARIATIONS (IMPORTANT!)
+Different consulates have different requirements:
+- Some stricter: Seattle, New York, Los Angeles
+- Some more flexible: Las Vegas, border consulates
+- **ALWAYS verify directly with YOUR specific consulate**
+
+### TIPS FROM REAL APPLICANTS
+- Bring MORE documents than required
+- Balance must NOT drop below minimum ANY month
+- Name on statements must MATCH passport exactly
+- Don't make large money movements before appointment
+- Dress professionally
+- If asked about plans, emphasize stable passive income
+
+### PROCESS OVERVIEW
+1. Apply at Mexican consulate in YOUR country
+2. Interview + documents → Visa (180 days to enter Mexico)
+3. Enter Mexico → 30 days to visit INM
+4. INM issues resident card → Done!
+5. Temporal: Renew every 1-3 years, after 4 years can apply Permanente
+
+### IF YOU DON'T QUALIFY
+- Tourist visa: 180 days, renewable by border run
+- Marry a Mexican: Lower requirements (Unidad Familiar)
+- Build up savings for 12 months then apply
+- Try different consulate with lower requirements
 
 ## 💰 TAXES & RFC - CRITICAL FOR SELLING
 
@@ -466,19 +523,76 @@ Técnicamente, solo el gobierno puede imponer "multas". Pero la HOA puede:
 - Limitar acceso a alberca/gym
 - **Siempre hay manera** - solo sé creativo con las palabras
 
-## 🛂 TURISTA VS RESIDENTE - PARA COMPRAR
-**¿Puedes comprar como turista?** SÍ ✅
+## 🛂 RESIDENCIA EN MÉXICO - GUÍA COMPLETA (2026)
+
+### ¿PUEDES COMPRAR COMO TURISTA? SÍ ✅
 - Legal comprar vía fideicomiso
 - No se requiere residencia para ser dueño
 
-**PERO se recomienda residencia porque:**
+### ¿POR QUÉ OBTENER RESIDENCIA?
 - Menor ISR al vender (tasas residente vs no-residente)
-- Más fácil abrir cuentas bancarias
-- Proceso RFC más simple
-- Menos papeleo para todo
-- Evitas dolores de cabeza futuros
+- Más fácil abrir cuentas bancarias y crédito
+- Proceso RFC más simple para optimización fiscal
+- Puedes trabajar legalmente (Permanente) o con permiso (Temporal)
+- Camino a ciudadanía después de 5 años
 
-**Tipos:** Temporal (1-4 años) o Permanente
+### TIPOS DE RESIDENCIA
+| Tipo | Duración | Renovación | Trabajo |
+|------|----------|------------|---------|
+| Temporal | Hasta 4 años | Anual en INM | Con permiso |
+| Permanente | Indefinida | Nunca | Automático |
+
+### REQUISITOS FINANCIEROS (2026 - ¡varía por consulado!)
+**Residente Temporal:**
+- OPCIÓN A: Ingreso $4,200-$4,800 USD/mes (6 meses comprobante)
+- OPCIÓN B: Ahorros/Inversiones $72,000-$80,000 USD (12 meses comprobante)
+- NO se puede combinar ingreso + ahorros - debe ser UNO u OTRO
+
+**Residente Permanente:**
+- OPCIÓN A: Ingreso $7,000-$8,000 USD/mes (6 meses comprobante)
+- OPCIÓN B: Ahorros $290,000-$320,000 USD (12 meses comprobante)
+- Muchos consulados requieren ser JUBILADO para aplicar directo
+
+### DOCUMENTOS ACEPTADOS
+✅ Estados de cuenta bancarios (6-12 meses) - todas las páginas
+✅ Cartas de pensión (Social Security, CPP)
+✅ Estados 401(k)/IRA (USA) o RRSP/TFSA (Canadá)
+✅ Cuentas de inversión/corretaje
+✅ Escritura de propiedad en México (valor >$600,000 USD)
+
+❌ NO ACEPTADOS:
+- Criptomonedas
+- Oro/plata/metales preciosos
+- Propiedades fuera de México
+- Equidad de casa (sin vender)
+- Combinar ingreso + ahorros
+
+### VARIACIONES POR CONSULADO (¡IMPORTANTE!)
+Diferentes consulados tienen diferentes requisitos:
+- Más estrictos: Seattle, New York, Los Angeles
+- Más flexibles: Las Vegas, consulados fronterizos
+- **SIEMPRE verifica directamente con TU consulado específico**
+
+### TIPS DE SOLICITANTES REALES
+- Lleva MÁS documentos de los requeridos
+- El saldo NO debe caer debajo del mínimo NINGÚN mes
+- Nombre en estados de cuenta debe COINCIDIR con pasaporte
+- No hagas movimientos grandes de dinero antes de la cita
+- Viste profesionalmente
+- Si preguntan por planes, enfatiza ingresos pasivos estables
+
+### PROCESO GENERAL
+1. Aplica en consulado mexicano en TU país
+2. Entrevista + documentos → Visa (180 días para entrar a México)
+3. Entra a México → 30 días para visitar INM
+4. INM emite tarjeta de residente → ¡Listo!
+5. Temporal: Renueva cada 1-3 años, después de 4 años puedes aplicar Permanente
+
+### SI NO CALIFICAS
+- Visa turista: 180 días, renovable saliendo/entrando
+- Casarte con mexicano/a: Requisitos menores (Unidad Familiar)
+- Acumula ahorros por 12 meses y luego aplica
+- Intenta en otro consulado con requisitos menores
 
 ## 💰 IMPUESTOS Y RFC - CRÍTICO
 
