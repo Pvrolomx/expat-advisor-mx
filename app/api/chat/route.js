@@ -311,6 +311,45 @@ Just financial proof + passport + application!
 - Build up savings for 12 months then apply
 - Try different consulate with lower requirements
 
+## 💡 PRACTICAL REALITIES (from experience)
+
+**OVERSTAYING TOURIST VISA:**
+In practice, if you're American/Canadian and overstay 180 days:
+- Nothing happens while you're in Mexico (no police hunting you)
+- When you LEAVE, immigration gives you an "exit pass" with warning
+- Warning says could be deported/denied entry if don't leave in X days
+- In reality, denial of entry RARELY happens for gringos
+- Still, get residency to avoid hassle and access benefits
+
+**CHANGING STATUS INSIDE MEXICO:**
+EXCEPTION: You CAN change from tourist to resident if:
+- Your spouse is Mexican citizen or resident
+- Apply through "vínculo familiar" (family ties)
+- Otherwise, MUST apply at consulate in your home country
+
+**MEXICAN CORPORATION OWNERSHIP:**
+If you use a Mexican corp to buy property:
+- Corporation must file taxes like any Mexican business
+- Low audit risk if you don't file, but not recommended
+- Consult Mexican accountant for proper setup
+
+**EJIDO LAND WARNING:**
+Some ejidos "register" foreigners as possessors for peace of mind.
+This registration is INVALID - provides NO legal protection.
+Don't fall for it - you cannot legally own ejido land as foreigner.
+
+**EVICTION TIMELINE (realistic):**
+- Official process: 4-8 months
+- REALISTIC: 6-12 months
+- If tenant fights hard: Can take longer
+- Prevention > cure: Screen tenants, use proper contracts
+
+**CASH LIMITS (SAT monitoring):**
+Banks report cash deposits over $15,000 pesos per MONTH (not per transaction).
+- Doesn't mean automatic fine, but may trigger review
+- Keep receipts for cash deposits
+- Electronic transfers (SPEI) have NO reporting limit
+
 ## 💰 TAXES & RFC - CRITICAL FOR SELLING
 
 **If you DON'T have RFC (tax ID):**
@@ -669,6 +708,45 @@ Diferentes consulados tienen diferentes requisitos:
 - Casarte con mexicano/a: Requisitos menores (Unidad Familiar)
 - Acumula ahorros por 12 meses y luego aplica
 - Intenta en otro consulado con requisitos menores
+
+## 💡 REALIDADES PRÁCTICAS (de experiencia)
+
+**OVERSTAY DE VISA TURISTA:**
+En la práctica, si eres americano/canadiense y te pasas de los 180 días:
+- Nada pasa mientras estés en México (no te busca nadie)
+- Al SALIR, migración te da "pase de salida" con advertencia
+- Dice que podrían deportarte/negarte entrada si no sales en X días
+- En realidad, RARA VEZ niegan entrada a gringos
+- Aún así, saca residencia para evitar problemas y acceder a beneficios
+
+**CAMBIAR ESTATUS DENTRO DE MÉXICO:**
+EXCEPCIÓN: SÍ puedes cambiar de turista a residente si:
+- Tu cónyuge es ciudadano/a o residente mexicano/a
+- Aplicas por "vínculo familiar"
+- De lo contrario, DEBES aplicar en consulado de tu país
+
+**CORPORACIÓN MEXICANA:**
+Si usas una corp mexicana para comprar propiedad:
+- La corporación debe declarar impuestos como cualquier empresa
+- Bajo riesgo de auditoría si no declaras, pero no recomendado
+- Consulta contador mexicano para estructura correcta
+
+**ADVERTENCIA EJIDO:**
+Algunos ejidos "registran" extranjeros como poseedores para tranquilidad.
+Este registro es INVÁLIDO - NO da protección legal.
+No caigas - no puedes ser dueño legal de terreno ejidal como extranjero.
+
+**DESALOJO (realista):**
+- Proceso oficial: 4-8 meses
+- REALISTA: 6-12 meses
+- Si inquilino pelea: Puede tomar más
+- Prevención > cura: Filtra inquilinos, usa contratos correctos
+
+**LÍMITES EFECTIVO (monitoreo SAT):**
+Bancos reportan depósitos en efectivo arriba de $15,000 pesos al MES.
+- No significa multa automática, pero puede generar revisión
+- Guarda comprobantes de depósitos en efectivo
+- Transferencias electrónicas (SPEI) NO tienen límite de reporte
 
 ## 💰 IMPUESTOS Y RFC - CRÍTICO
 
