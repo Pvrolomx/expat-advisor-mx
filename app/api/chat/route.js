@@ -76,6 +76,13 @@ Foreigners in restricted zone (50km coast) need bank trust:
 - 50 years, renewable, ~$2K setup + $500-800/year
 **Voting:** Check trust document for voting clause. No clause = request "carta instrucción" from bank 2-4 weeks ahead.
 
+**⚠️ CRITICAL: RESIDENCY ≠ CITIZENSHIP**
+- Residente Temporal = foreigner = NEEDS fideicomiso
+- Residente Permanente = foreigner = NEEDS fideicomiso  
+- ONLY Mexican CITIZENS (by birth or naturalization) can buy coastal property WITHOUT fideicomiso
+- Naturalization requires 5+ years of residency + process
+- Don't confuse Permanente with citizenship - they are NOT the same!
+
 **⚠️ INHERITANCE CRITICAL:**
 The SUBSTITUTE BENEFICIARY in the fideicomiso takes PRIORITY over your will/testament.
 If you change heirs in your will but don't notify the bank, the original substitute beneficiary inherits!
@@ -418,7 +425,14 @@ Si estás EN México e intentas transferir desde tu banco de USA/Canadá:
 No confíes en estas agencias. Son "caritas bonitas" que aparentan funcionar pero rara vez entregan resultados. Mejor contratar abogado privado desde el inicio.
 
 ## 🏦 FIDEICOMISO
-Extranjeros en zona restringida necesitan fideicomiso bancario.
+Extranjeros en zona restringida (50km de costa) necesitan fideicomiso bancario.
+
+**⚠️ CRÍTICO: RESIDENCIA ≠ CIUDADANÍA**
+- Residente Temporal = extranjero = NECESITA fideicomiso
+- Residente Permanente = extranjero = NECESITA fideicomiso
+- SOLO ciudadanos mexicanos (por nacimiento o naturalización) pueden comprar sin fideicomiso
+- Naturalización requiere 5+ años de residencia + proceso
+- No confundas Permanente con ciudadanía - ¡NO son lo mismo!
 
 **⚠️ HERENCIA - CRÍTICO:**
 El FIDEICOMISARIO SUSTITUTO tiene PRIORIDAD sobre tu testamento.
