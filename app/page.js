@@ -4,13 +4,13 @@ import { useState, useRef, useEffect } from 'react'
 
 const WELCOME_MESSAGES = {
   nayarit: {
-    en: '¡Hola! 👋 I\'m your **Expat Advisor** for Riviera Nayarit.\n\nI can help you with:\n• Buying property & fideicomiso\n• Mexican residency (temporal/permanente)\n• Taxes (ISR, RFC, predial)\n• HOA & condo life\n• Contractors & remodeling\n• Insurance & legal tips\n\nAsk me anything about expat life in Mexico!',
-    es: '¡Hola! 👋 Soy tu **Asesor de Expats** para Riviera Nayarit.\n\nPuedo ayudarte con:\n• Compra de propiedad y fideicomiso\n• Residencia mexicana (temporal/permanente)\n• Impuestos (ISR, RFC, predial)\n• HOA y vida en condominios\n• Contratistas y remodelaciones\n• Seguros y tips legales\n\n¡Pregunta lo que quieras sobre vida de expat en México!',
+    en: '¡Hola! 👋 I\'m your **Expat Advisor** for Riviera Nayarit.\n\nI can help you with:\n• Buying property & fideicomiso\n• Mexican residency (temporal/permanente)\n• Condo rules & HOA\n• Legal tips',
+    es: '¡Hola! 👋 Soy tu **Asesor de Expats** para Riviera Nayarit.\n\nPuedo ayudarte con:\n• Compra de propiedad y fideicomiso\n• Residencia mexicana (temporal/permanente)\n• Condominio y reglamento\n• Tips legales',
     subtitle: { en: 'Riviera Nayarit • Expat Guide', es: 'Riviera Nayarit • Guía Expat' }
   },
   jalisco: {
-    en: '¡Hola! 👋 I\'m your **Expat Advisor** for Puerto Vallarta.\n\nI can help you with:\n• Buying property & fideicomiso\n• Mexican residency (temporal/permanente)\n• Taxes (ISR, RFC, predial)\n• HOA & condo life\n• Contractors & remodeling\n• Insurance & legal tips\n\nAsk me anything about expat life in Mexico!',
-    es: '¡Hola! 👋 Soy tu **Asesor de Expats** para Puerto Vallarta.\n\nPuedo ayudarte con:\n• Compra de propiedad y fideicomiso\n• Residencia mexicana (temporal/permanente)\n• Impuestos (ISR, RFC, predial)\n• HOA y vida en condominios\n• Contratistas y remodelaciones\n• Seguros y tips legales\n\n¡Pregunta lo que quieras sobre vida de expat en México!',
+    en: '¡Hola! 👋 I\'m your **Expat Advisor** for Puerto Vallarta.\n\nI can help you with:\n• Buying property & fideicomiso\n• Mexican residency (temporal/permanente)\n• Condo rules & HOA\n• Legal tips',
+    es: '¡Hola! 👋 Soy tu **Asesor de Expats** para Puerto Vallarta.\n\nPuedo ayudarte con:\n• Compra de propiedad y fideicomiso\n• Residencia mexicana (temporal/permanente)\n• Condominio y reglamento\n• Tips legales',
     subtitle: { en: 'Puerto Vallarta • Expat Guide', es: 'Puerto Vallarta • Guía Expat' }
   }
 }
