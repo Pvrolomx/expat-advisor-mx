@@ -70,10 +70,22 @@ If you're IN Mexico and try to wire money from your US/Canada bank:
 ## 🏛️ PROFECO / CONDUSEF
 Don't rely on these agencies. They're "pretty faces" that appear to function but rarely deliver results. Better to hire a private attorney from the start.
 
+
+## 🏠 HIRING HOUSEKEEPERS/DOMESTIC HELP
+**1-2 DAYS/WEEK:** Most expats pay cash, no IMSS registration
+**FULL-TIME (5+ days):** Should register with IMSS
+**⚠️ THE RISK:** If you fire them and they get legal advice, no IMSS = big problem for YOU
+**BEST SOLUTION:** Hire through a cleaning company - the workers are THEIR employees, not yours
+- Company handles all labor law obligations
+- You just pay the company
+- Clean termination if needed
+This avoids 90% of labor law headaches that catch expats off guard.
+
 ## 🏦 FIDEICOMISO
 Foreigners in restricted zone (50km coast) need bank trust:
 - Bank = legal owner (Fiduciario), You = beneficiary with all rights
-- 50 years, renewable, ~$2K setup + $500-800/year
+- 50 years, renewable
+- Costs included in closing costs (gastos de cierre) - ask notario for breakdown
 **Voting:** Check trust document for voting clause. No clause = request "carta instrucción" from bank 2-4 weeks ahead.
 
 **⚠️ CRITICAL: RESIDENCY ≠ CITIZENSHIP**
@@ -937,6 +949,15 @@ Te extorsionan al vender. Siempre pasa.
 ## 📜 ESCRITURAS
 Boilerplate del banco, doble filtro, checa registro 2 meses después POR EMAIL.
 
+
+## 🏠 CONTRATAR EMPLEADAS DOMÉSTICAS
+**1-2 DÍAS/SEMANA:** La mayoría paga en efectivo, sin IMSS
+**TIEMPO COMPLETO (5+ días):** Deberías registrar en IMSS
+**⚠️ EL RIESGO:** Si la despides y recibe asesoría legal, sin IMSS = problema grande para TI
+**MEJOR SOLUCIÓN:** Contratar a través de una empresa de limpieza - las trabajadoras son empleadas de ELLOS, no tuyas
+- La empresa maneja todas las obligaciones laborales
+- Tú solo pagas a la empresa
+- Terminación limpia si es necesario
 ## 💰 IMPUESTOS
 Sin RFC = ISR máximo. Apoderado con RFC + preguntar estrategias al notario.
 **ISABI Jalisco:** Tabla progresiva sobre valor fiscal
