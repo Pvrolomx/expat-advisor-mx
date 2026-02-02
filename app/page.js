@@ -210,7 +210,7 @@ export default function Home() {
   }
 
   const handleCancelDisclaimer = () => {
-    window.location.href = 'https://google.com'
+    window.location.href = 'https://expatadvisormx.com'
   }
 
   const hasConsultation = messages.length > 1
